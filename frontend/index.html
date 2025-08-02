@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Speech to Image App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>AI Speech to Image Generator</h1>
+
+  <div id="letter-section">
+    <h3>Select a Letter</h3>
+    <div id="letters"></div>
+  </div>
+
+  <div id="word-section" style="display:none;">
+    <h3>Select a Word</h3>
+    <div id="words"></div>
+  </div>
+
+  <div id="sentence-section" style="display:none;">
+    <h3>Selected Sentence</h3>
+    <p id="sentence"></p>
+    <button id="generateBtn">Generate Image</button>
+  </div>
+
+  <div id="image-section" style="display:none;">
+    <h3>Generated Image</h3>
+    <img id="generatedImage" alt="AI Image" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
